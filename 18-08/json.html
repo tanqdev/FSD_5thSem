@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const student = {
+        name: "Tanishq",
+        class: "3rd year",
+        fee: 127000,
+        address: "GZB",
+      };
+      document.write(student + "<br>");
+      document.write(typeof student + "<br>");
+      document.write(student.name + "<br>");
+      document.write(student.class + "<br>");
+      document.write(student.fee + "<br>");
+      document.write(student.address + "<br>");
+      document.write(JSON.stringify(student) + "<br>");
+
+      for (let x in student) {
+        document.write(x);
+      }
+    </script>
+  </body>
+</html>
