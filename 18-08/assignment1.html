@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+      body {
+        display: flex;
+        min-height: 100vh;
+        justify-content: center;
+        align-items: center;
+        color: aliceblue;
+        background: rgb(28, 28, 28);
+      }
+      .container {
+        border: 1px solid rgb(46, 46, 46);
+        background-color: rgb(46, 46, 46);
+        border-radius: 10px;
+        width: 300px;
+        height: 300px;
+      }
+      header {
+        text-align: center;
+        padding: 10px;
+        padding-bottom: 60px;
+      }
+      .products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+      }
+      .Rice,
+      .Tea,
+      .Coffee,
+      .Chini {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .buy {
+        display: flex;
+        justify-content: center;
+      }
+    </style>
+    <div class="container">
+      <header>Online Shop</header>
+      <div class="products">
+        <div class="Rice">
+          <div class="name">Rice</div>
+          <div class="price">500Rs</div>
+        </div>
+        <div class="Tea">
+          <div class="name">Tea</div>
+          <div class="price">700Rs</div>
+        </div>
+        <div class="Coffee">
+          <div class="name">Coffee</div>
+          <div class="price">800Rs</div>
+        </div>
+        <div class="Chini">
+          <div class="name">Chini</div>
+          <div class="price">1000Rs</div>
+        </div>
+      </div>
+      <div class="buy">
+        <button onCLick="buynow()">Buy Now</button>
+      </div>
+    </div>
+  </body>
+</html>
