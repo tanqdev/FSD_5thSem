@@ -1,0 +1,10 @@
+◇ injected env (6) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+◇ injected env (6) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+RMS API listening on http://localhost:4001/api
+2026-09-22T06:46:17.548Z  GET /api/health
+2026-09-22T06:46:17.646Z  GET /api/stats
+2026-09-22T06:47:23.033Z  GET /api/health
+2026-09-22T06:47:31.696Z  GET /api/stats
+2026-09-22T06:47:31.834Z  GET /api/rooms?limit=2
+2026-09-22T06:47:31.949Z  GET /api/buildings
+2026-09-22T06:47:32.020Z  GET /api/reports/occupancy

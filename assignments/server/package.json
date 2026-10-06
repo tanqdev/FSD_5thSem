@@ -1,0 +1,18 @@
+{
+  "name": "rms-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Room Allocation & Occupancy Management System - REST API",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "pg": "^8.23.0"
+  }
+}
