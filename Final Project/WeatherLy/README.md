@@ -5,8 +5,6 @@ A production-deployed weather client built with React + TypeScript, featuring re
 
 Live Demo: https://weatherly-sigma-six.vercel.app/
 
-Source Code: https://github.com/tanqdev/WeatherLy
-
 
 ## Features
 
