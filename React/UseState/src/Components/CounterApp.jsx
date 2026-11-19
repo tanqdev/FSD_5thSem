@@ -18,14 +18,7 @@ const CounterApp = () => {
     setCnt(cnt - 1);
   }
   return (
-    <div
-      style={{
-        display: "flex",
-        justifyContent: "center",
-        flexDirection: "column",
-        alignItems: "center",
-      }}
-    >
+    <div>
       <div>Count={cnt}</div>
       <div
         style={{

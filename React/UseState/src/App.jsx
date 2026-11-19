@@ -1,5 +1,6 @@
 import React from "react";
 import CounterApp from "./Components/CounterApp";
+import Assignment5 from "./Components/Assignment5";
 
 const App = () => {
   return (
@@ -8,12 +9,10 @@ const App = () => {
         display: "flex",
         minHeight: "100vh",
         justifyContent: "center",
-        alignContent: "center",
-        border: "2px solid red",
-        padding: "120px",
+        alignItems: "center",
       }}
     >
-      <CounterApp />
+      <Assignment5 />
     </div>
   );
 };
